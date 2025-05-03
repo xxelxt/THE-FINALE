@@ -1,0 +1,27 @@
+<IfModule mod_headers.c>
+#    Header always set Access-Control-Allow-Origin "https://admin.dingtea.top"
+    Header always set Access-Control-Allow-Origin "http://localhost:3000"
+    Header always set Access-Control-Allow-Credentials "true"
+    Header always set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+    Header always set Access-Control-Allow-Headers "Content-Type, Authorization, X-Requested-With"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+   RewriteEngine On
+   RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+# Disable directory browsing
+Options -Indexes
+
+# Protect .env file
+<Files .env>
+Order allow,deny
+Deny from all
+</Files>
+
+# Protect .htaccess file
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>

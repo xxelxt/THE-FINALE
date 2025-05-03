@@ -1,0 +1,85 @@
+{
+    "id": 59,
+    "uuid": "cdb8a8d0-e5da-4380-bf85-31a892f7e081",
+    "shop_id": 502,
+    "category_id": 31,
+    "brand_id": 1,
+    "status": "published",
+    "active": true,
+    "addon": false,
+    "vegetarian": false,
+    "img": "https://dingteaupload.s3.amazonaws.com/dingteaupload/public/images/products/101-1743010182.webp",
+    "min_qty": 1,
+    "max_qty": 100,
+    "interval": 1,
+    "created_at": "2025-03-26 17:29:45Z",
+    "updated_at": "2025-03-26 17:29:45Z",
+    "cost_price": 0,
+    "discounts": [],
+    "translation": {
+        "id": 93,
+        "locale": "vi",
+        "title": "Trà sữa hạt dẻ",
+        "description": "Trà sữa hạt dẻ"
+    },
+    "translations": [
+        {
+            "id": 93,
+            "locale": "vi",
+            "title": "Trà sữa hạt dẻ",
+            "description": "Trà sữa hạt dẻ"
+        }
+    ],
+    "locales": [
+        "vi"
+    ],
+    "kitchen": null,
+    "stocks": [
+        {
+            "id": 9999,
+            "countable_id": 59,
+            "price": 49000,
+            "quantity": 9999,
+            "tax": 0,
+            "total_price": 49000,
+            "addon": false,
+            "addons": [
+                {
+                    "id": 99999,
+                    "stock_id": 9999,
+                    "addon_id": 12,
+                    "product": {
+                        "id": 12,
+                        "uuid": "4fc09055-7de2-41e1-91dd-5d6c5d128525",
+                        "shop_id": 502,
+                        "status": "published",
+                        "active": true,
+                        "addon": true,
+                        "vegetarian": false,
+                        "min_qty": 1,
+                        "max_qty": 10,
+                        "interval": 1,
+                        "created_at": "2025-03-17 07:11:48Z",
+                        "updated_at": "2025-03-17 07:11:48Z",
+                        "cost_price": 0,
+                        "translation": {
+                            "id": 25,
+                            "locale": "vi",
+                            "title": "Trân châu trắng",
+                            "description": "Trân châu trắng"
+                        },
+                        "stock": {
+                            "id": 85,
+                            "countable_id": 12,
+                            "price": 10000,
+                            "quantity": 1000,
+                            "tax": 0,
+                            "total_price": 10000,
+                            "addon": true
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

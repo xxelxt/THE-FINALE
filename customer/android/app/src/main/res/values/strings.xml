@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DING TEA</string>
+    <string name="facebook_app_id">1724370668287811</string>
+    <string name="fb_login_protocol_scheme">fb1724370668287811</string>
+    <string name="facebook_client_token">f12d630daeee1e51b6f6bc7abb96af85</string>
+</resources>

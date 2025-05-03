@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "943609385627",
+    "project_id": "ding-tea-6bb95",
+    "storage_bucket": "ding-tea-6bb95.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943609385627:android:2324efe6f0e3e50c09ec3e",
+        "android_client_info": {
+          "package_name": "com.xxelxt.dtea"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943609385627-3krrp7t2jm6si5v72defmn0fn544rvcq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXtfZL9TXaSOVv1MKgRg_Ieb7-4Xz7q0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943609385627-3krrp7t2jm6si5v72defmn0fn544rvcq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
