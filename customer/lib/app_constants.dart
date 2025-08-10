@@ -8,7 +8,7 @@ abstract class AppConstants {
   /// api urls
   static const String baseUrl = 'https://api.dingtea.top/';
   static const String drawingBaseUrl = 'https://api.openrouteservice.org';
-  static const String googleApiKey = 'AIzaSyC96nZOqHgpWmMDkbNTmgvgBzvfMUQascI';
+  static const String googleApiKey = 'AIzaSyALwzJXGf8fBFdzHF0TT4pqp7np6foXEYw';
   static const String adminPageUrl = 'https://admin.dingtea.top';
   static const String webUrl = 'https://dingtea.top';
   static const String firebaseWebKey =
